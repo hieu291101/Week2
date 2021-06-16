@@ -3,6 +3,8 @@
     --nav-color:#322f2e;
 }
 
+
+
 *{
     padding: 0;
     margin: 0;
@@ -22,6 +24,10 @@ body {
     line-height: 2rem;
 }
 
+header {
+    width: 100%;
+}
+
 .container-80{
     margin: auto;
     display: flex;
@@ -29,6 +35,8 @@ body {
     padding-top: 16px;
     max-width: 1300px;
     min-height: 90px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .container-80 .nav__leftside {
@@ -47,9 +55,10 @@ body {
 }
 
 .nav__rightside {
+    display: flex;
+    align-items: center;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     font-weight: 600;
-    display: flex;
     font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -88,6 +97,10 @@ body {
     background: var(--button-color);
     color: white;
     font-size: 1.4rem ;
+}
+
+.bars-icon {
+    display: none;
 }
 
 .main-section{
@@ -259,6 +272,7 @@ body {
     justify-content: space-between;
     width: 1200px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .imgs-block img {
@@ -279,8 +293,14 @@ body {
 }
 
 .graphic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphic img {
     width: 1158px;
-    margin: auto;
 }
 
 .pod-section {
@@ -658,3 +678,4 @@ footer {
     color: white;
     min-height: 22px;
 }
+

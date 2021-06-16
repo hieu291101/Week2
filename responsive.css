@@ -1,0 +1,137 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+    .nav__menu {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px){
+    .nav__menu {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (min-width: 768px){
+    .nav__rightside {
+        display:none;
+    }
+
+    header {
+        border-bottom: 1px solid rgba(68,85,103,.11);
+    }
+
+    .container-80 {
+        padding-top: 5px;
+    }
+
+    .container-80 .nav__leftside .nav-logo img{
+        width: 120px;
+    }
+
+
+    .online-event__wrap{
+        min-width: 480px;
+    }
+
+    i.bars-icon {
+        display: block;
+        padding: 18px;
+    }
+
+    .imgs-block {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .graphic{
+        width: 100%;
+    }
+
+    .pod-block {
+        width: 95%;
+    }
+
+    .pod-section__item {
+        height: 600px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .pod-heading {
+        font-size: 4rem;
+
+    }
+
+    .quiz-section {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quiz-right {
+        margin-left: 8rem;
+    }
+    
+    .quiz-heading {
+        font-size: 4rem;
+    }
+
+    .mail-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 95%;
+        padding: 0;
+    }
+    
+    .mail-block img {
+        margin: auto;
+    }
+
+    .mail-content{
+        max-width: 100%;
+        margin-bottom: 5rem;
+        margin-right:51px;
+    }
+
+    .mail-heading {
+        margin: auto;
+    }
+
+    .mail-body{
+        text-align: center;
+    }
+
+    .row-1{
+        flex-direction: column-reverse;
+        max-width: 90%;
+    }
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media screen and (min-width: 992px){
+    
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px){
+
+}
