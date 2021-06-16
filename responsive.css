@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px){
-
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -114,7 +114,9 @@
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media screen and (min-width: 992px){
-    
+    i.bars-icon {
+        display: none;
+    }   
 }
 
 
