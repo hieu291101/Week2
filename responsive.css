@@ -1,25 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px){
-    .nav__menu {
-        display: none;
-    }
 
-    .login-button {
-        display: none;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media screen and (min-width: 600px){
-    .nav__menu {
-        display: none;
-    }
-
-    .login-button {
-        display: none;
-    }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
