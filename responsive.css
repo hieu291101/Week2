@@ -216,7 +216,7 @@
     .container-80{
         max-width: 100%;
     }
-    
+
     .nav__rightside {
         display:none;
     }
@@ -257,8 +257,8 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media screen and (min-width: 1200px){
-    i.bars-icon {
-        display: none;
+@media screen and (max-width: 1200px){
+    .nav__rightside {
+        font-size: 1.35rem;
     }
 }
