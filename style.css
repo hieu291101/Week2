@@ -311,6 +311,7 @@ header {
     justify-content: center;
     margin: auto;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 
 .pod-section__item {
@@ -361,6 +362,7 @@ header {
     display: flex;
     justify-content: center ;
     margin-top: 20rem;
+    flex-wrap: wrap;
 }
 
 .quiz-left {
@@ -674,5 +676,6 @@ footer {
     font-weight: 700;
     color: white;
     min-height: 22px;
+    z-index: 5;
 }
 
